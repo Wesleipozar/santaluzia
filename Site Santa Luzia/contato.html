@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+    <head>
+        <meta charset="Utf-8">
+        <Title>Santa Luzia E.C</Title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/formulario.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jsquery.js"></script>
+        <script type="text/php" src="email.php"></script>
+        
+    </head>
+    
+   
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h2><i>SITE OFICIAL</i></h2>
+                <h1>E.C SANTA LUZIA</h1>
+                </hgroup>
+            <img id="icone" src="imagens/logo.png" width="120" height="120">
+<nav id="menu">       
+    
+    <ul type="1">
+        <li><A href="index2.html"><p>Início</p></A></li> 
+        <li><a href="calendario.html"><p>Calendário</p></a></li>
+        <li><a href="fotos.html"><p>Fotos</p></a></li>
+        <li><a href="elenco.html"><p>Elenco</p></a></li>
+        <li><a href="contato.html"><p>Fale conosco</p></a></li>
+    </ul>
+   
+   
+</nav> 
+    </header>
+    </div>
+        <body>
+            <form class="formulario" method="post" action="email.php"> 
+                <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+                
+                <div class="field">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                </div>
+                
+                <div class="field">
+                    <label for="telefone">Seu Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                </div>
+        
+                <div class="field">
+                    <label for="email">Seu E-Mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                </div>        
+                <div class="field radiobox">
+                    <span>Deseja receber nossas novidades?</span>
+                    <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                    <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                </div>
+                <div class="field">
+                    <label for="mensagem">Sua mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                </div>
+        
+                <input type="submit" name="acao" value="Enviar">
+            </form>
+          
+                </div>
+                <footer id="rodape">
+                    <p>&copy;Copyright 2020 - Todos os direitos reservados. Site desenvolvido por Well Pozar</p>
+               </footer>
+        </body>
+    </html>

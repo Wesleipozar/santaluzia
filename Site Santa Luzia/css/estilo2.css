@@ -1,0 +1,26 @@
+
+img{
+   
+    border: 0;
+   
+}
+#slider{
+    list-style: none;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+#slider li{
+    position: absolute;
+    z-index: 0;
+    display: none;
+}
+#slider li.sliderActive{
+    z-index: 1;
+}
+
+   
+

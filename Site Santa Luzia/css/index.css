@@ -1,0 +1,295 @@
+@charset "Utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+
+body{
+    background-image:url("../imagens/bp.jpg");
+    
+    
+}
+div#interface{
+    width: 1005px;
+    height: 140px;
+    background: url("../imagens/back-preto.jpeg");
+  margin-right: 30px;
+  margin-top: -20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
+    padding: 0px;
+    margin-bottom: 0px;
+    
+}
+
+  
+
+header#cabecalho h1{
+    font-family: 'Rowdies', cursive;
+    font-size: 15pt;
+    color: yellow;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 80px;
+    margin-left: -240px;
+    float: left;
+    box-shadow: black solid;
+    
+}
+header#cabecalho h2{
+    font-family: 'Russo One', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color:#ffff03;
+    font-size: 10pt;
+    margin-top: 30px;
+    float: left; 
+    padding: 40px;
+    margin-left: 130px;
+}
+header#cabecalho img#icone{
+    position: absolute;
+    right: 850px;
+    top: 10px;
+}
+
+
+
+/*formação do menu*/
+nav#menu ul{
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: 65px;
+left: 450px;
+margin-bottom: 20px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    color: #ffff03;
+    box-shadow: black;
+    
+}
+nav#menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff03;
+}
+nav#menu {
+    display: block;
+    
+}
+nav#menu p{
+font-family: 'Lobster', cursive;
+
+}
+nav#menu li:hover{
+    background-color:#ffff03;
+    
+}
+
+
+nav#menu a:hover{
+    color: black;
+    text-decoration: underline;
+}
+/*slider*/
+
+#slider{
+    list-style:none;
+    width:995px;
+    height:750px;
+    margin-right: 30px;
+    padding:10px;
+    overflow: hidden;
+    position: absolute;
+   
+
+    }
+    
+    #slider li{
+    position: absolute;
+    z-index: 0;
+    display:none;
+    }
+    
+    #slider li.sliderActive{
+    z-index: 3;
+    }
+    div#corpo-principal img{
+       width: 690px;
+       height: 500px;
+       margin-right: 0px;
+       margin-left: 300px;
+       margin-bottom: auto;
+       margin-top: -38px;
+       box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    }
+    div#informe{
+        background: url("../imagens/bb.jpg");
+        padding: 3px;
+        width: 300px;
+        height: 468px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+       
+    }
+    div#info img{
+        width: 290px;
+        height: 220px;
+        float: right;
+        margin-right:705px;
+        margin-top: -387px;
+    }
+
+    div#informe h2{
+        font-size: 20pt;
+        color: #ffff03;
+        margin-left: -390px;
+        margin-top: 47px;
+        font-family: 'Jockey One', sans-serif;
+        float: left;
+        box-shadow: 2px 2px 2px black;
+        position: relative;
+    }
+    div#informe P{
+color: #ffff03;
+position: relative;
+margin-top: 330PX;
+font-family: 'Jockey One', sans-serif;
+font-size: 17PT;
+margin-left: 15PX;
+
+}
+article#at img{
+    float: right;
+    padding: 20px;
+}
+footer#rodape{
+    color:white;
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    
+}
+
+/*UL*/
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+ul#album-fotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+ul#album-fotos li:hover span{
+    opacity: 1;
+    
+}
+
+ul#album-fotos {
+    width: 1000px;
+    margin: 0px;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+   margin: 15px;
+
+    box-shadow: 1px 1px 3px rgba(0,0,0.4);
+    -webkit-transition: all .4s ease-in;
+}
+ul#album-fotos li#foto01:hover{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+ul#album-fotos li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;   
+}
+ul#album-fotos li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto01{
+    background: url('../imagens/abelha.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+ 
+}
+ul#album-fotos li#foto02{
+    background: url('../imagens/pageface.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+   
+}
+ul#album-fotos li#foto03{
+    background: url('../imagens/pageInsta.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+   
+}
+ul#album-fotos li#foto04{
+    background: url('../imagens/copafacil.png') no-repeat;
+    background-position: 50% 50%; 
+    background-size: 400px 400px;
+
+     
+}
+.f{
+    width: 75px;
+    height: 75px;
+    opacity: .8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+.i{
+    width: 65px;
+    height: 65px;
+    opacity: .8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+.c{
+    width: 75px;
+    height: 75px;
+    opacity: .7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+.f:hover{
+    opacity: 1;
+
+}
+.i:hover{
+    opacity: 1;
+}
+.c:hover{
+    opacity: 1;
+}

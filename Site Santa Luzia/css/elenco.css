@@ -1,0 +1,144 @@
+@charset "Utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+
+body{
+    background-image:url("../imagens/bp.jpg");
+    
+}
+div#interface{
+    width: 1005px;
+    height: 140px;
+    background: url("../imagens/back-preto.jpeg");
+  margin-right: 50px;
+  margin-top: -20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-left: -8px;
+}
+header#rede-social1{
+left: 850px;
+top: 17px;
+position: absolute;
+
+}
+header#rede-social2{
+    left: 900px;
+    top: 18px;
+    position: absolute;
+    
+    }
+    div#red{
+        background-color: #ffff03;
+    }
+
+    header#cabecalho h1{
+        font-family: 'Rowdies', cursive;
+        font-size: 15pt;
+        color: yellow;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+        padding: 80px;
+        margin-left: -240px;
+        float: left;
+        box-shadow: black solid;
+        
+    }
+    header#cabecalho h2{
+        font-family: 'Russo One', sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        color:#ffff03;
+        font-size: 10pt;
+        margin-top: 30px;
+        float: left; 
+        padding: 40px;
+        margin-left: 130px;
+    }
+    header#cabecalho img#icone{
+        position: absolute;
+        right: 870px;
+        top: 10px;
+        width: 130px;
+        height: 130px;
+    }
+/*formatção de imagens*/
+
+
+/*formação do menu*/
+nav#menu ul{
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: 85px;
+left: 450px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    color: #ffff03;
+    box-shadow: black;
+    font-family: 'Lobster', cursive;
+    font-size: 12pt;
+    
+}
+nav#menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff03;
+}
+nav#menu {
+    display: block;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu li:hover{
+    background-color:#ffff03;
+    
+}
+
+
+nav#menu a:hover{
+    color: black;
+    text-decoration: underline;
+}
+/*slider*/
+#slider{
+    list-style:none;
+    width:1000px;
+    height:750px;
+    margin-left: 250px;
+    padding:8px;
+    overflow: hidden;
+    position: relative;
+   
+
+    }
+    
+    #slider li{
+    position: absolute;
+    z-index: 0;
+    display:none;
+    }
+    
+    #slider li.sliderActive{
+    z-index: 1;
+    }
+    div#corpo-principal img{
+       width: 720px;
+       height: 500px;
+       margin: auto;
+       margin-left: 300px;
+       margin-bottom: auto;
+       margin-top: -38px;
+       box-shadow: rgba(0, 0, 0, .4);
+    }

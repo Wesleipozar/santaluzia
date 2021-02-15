@@ -1,0 +1,31 @@
+@charset "Utf-8";
+
+
+    div#corpo-img{
+        text-align: left;
+    font-size: 15pt;
+    background-color:#141213;
+    color:white;
+    float: left;
+    position: absolute;
+    margin: 0px;
+    margin-top: 55px;
+    width: 247px;
+    height: 710px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    }
+    div#corpo-img a{
+        
+        color: white;
+        font: arial italic;
+    }
+    p{
+        font-family: 'Lobster', cursive;
+    }
+    footer{
+        clear: both;
+        text-align: center;
+        border-top: 1px solid #606060;
+        color: white;
+    }
